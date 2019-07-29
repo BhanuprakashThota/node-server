@@ -5,7 +5,7 @@
 ## Links
 
 - [Demo](https://node-server-heroku-app.herokuapp.com/)
-- [Source](https://github.com/denisecase/node-server)
+- [Source](https://github.com/profcase/node-server)
 
 ## Requirements
 
@@ -80,7 +80,7 @@ nodemon -v
 - [Heroku](https://www.heroku.com/)
 - Create free account
 - New / Create new app / enter a name / create app.
-- Under app Deploy / Deployment method / select GitHub master branch to deploy when a new commit is pushed to master.
+- Under app Deploy / Deployment method / select GitHub master branch to deploy when a new commit is pushed to master. Then "Enable Automatic Deploys".
 
 ## Terms
 
@@ -113,7 +113,7 @@ nodemon -v
 - [js-gui](https://github.com/profcase/js-gui)
 - [js-gui-storage](https://github.com/profcase/js-gui-storage)
 - [js-gui-vue](https://github.com/denisecase/js-gui-vue)
-- [js-node](https://github.com/denisecase/js-node)
+- [node-server](https://github.com/profcase/node-server)
 - [js-node-express](https://github.com/denisecase/js-node-express)
 - [todo-server](https://github.com/profcase/todo-server)
 - [todo-server-jwt](https://github.com/profcase/todo-server-jwt)
