@@ -59,14 +59,15 @@ npm start
 1. Use CTRL-C, CTRL-C to stop your server.
 1. Restart the server to see your changes.
 
-## Install Nodemon to enable live updates
+## Optional: Install Nodemon to enable live updates
 
-1. Install nodemon globally - this is one of the rare packages to install globally.
+1. Install nodemon locally - this can be very helpful later.
 1. In your folder, open PowerShell here as Administrator, install and check the version.
 
 ```PowerShell
-npm install nodemon -g
+npm install nodemon
 nodemon -v
+nodemon server.js
 ```
 
 ## Optional: Create a server from scratch
@@ -86,20 +87,19 @@ nodemon -v
 
 - Node.js platform
 - npm (Node package manager)
-- nodemon
-- npm install {packagename}
-- npm install -g {packagename}
-- npm start
 - package.json
-- localhost (127.0.0.1)
+- <http://localhost:3002/> (<http://127.0.0.1:3002>)
 - host
 - port
+- URI
 - URL
 - web server
 - web service
 - web client
 - web request
 - web response
+- template literals (in JavaScript)
+- embedded expressions (in template literals)
 
 ## Reference
 
@@ -107,17 +107,4 @@ nodemon -v
 
 ## See Also
 
-- [js-console](https://github.com/profcase/js-console)
-- [js-colors](https://github.com/profcase/js-colors)
-- [js-e1](https://github.com/profcase/js-e1)
-- [js-gui](https://github.com/profcase/js-gui)
-- [js-gui-storage](https://github.com/profcase/js-gui-storage)
-- [js-gui-vue](https://github.com/denisecase/js-gui-vue)
-- [node-server](https://github.com/profcase/node-server)
-- [todo-server-jwt](https://github.com/profcase/todo-server-jwt)
-- [node-express-app](https://github.com/denisecase/node-express-app)
-- [node-express-chat](https://github.com/denisecase/node-express-chat)
-- [node-express-mvc](https://github.com/denisecase/node-express-mvc)
-- [node-express-mvc-ejs-start](https://bitbucket.org/professorcase/node-express-mvc-ejs-start)
-- [node-express-mvc-ejs-passport](https://bitbucket.org/professorcase/node-express-mvc-ejs-passport)
-
+- [More App Examples](https://profcase.github.io/web-apps-list/)
