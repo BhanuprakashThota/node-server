@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Demo](https://node-server-heroku-app.herokuapp.com/)
+- [Demo](https://node-server-563.herokuapp.com/) - Heroku, not GitHub Pages
 - [Source](https://github.com/profcase/node-server)
 
 ## Requirements
@@ -19,7 +19,7 @@
 - More practice with JavaScript
 - Node.js non-blocking event loop supports many concurrent requests
 
-## For Windows Users
+## Recommended Install Option For Windows Users
 
 - Add ["Open PowerShell here as Administrator"](https://www.tenforums.com/tutorials/60177-add-open-powershell-window-here-administrator-windows-10-a.html).
 - Install [Chocolatey](https://chocolatey.org/) windows package manager
@@ -41,28 +41,23 @@ npm -v
 
 ## Start your Server
 
-Start your Server with either of these options. See the package.json for configuring npm scripts.
+Start your Server. See the package.json for configuring npm scripts.
 
 ```PowerShell
 node server.js
-npm start
 ```
 
 ## Open a Browser Client
 
-1. Open a web browser.
-2. Go to the URL: <http://127.0.0.1:3000/> or <http://localhost:3000/>.
+Open a web browser and go to the URL: <http://127.0.0.1:3000/> or <http://localhost:3000/>.
 
 ## Modify and Restart
 
-1. Make changes to the server logic.
-1. Use CTRL-C, CTRL-C to stop your server.
-1. Restart the server to see your changes.
+Make changes to the server logic. Use CTRL-C, CTRL-C to stop your server. Restart the server to see your changes.
 
 ## Optional: Install Nodemon to enable live updates
 
-1. Install nodemon locally - this can be very helpful later.
-1. In your folder, open PowerShell here as Administrator, install and check the version.
+Install nodemon locally - this can be very helpful later. In the project folder, open PowerShell here as Administrator, install and check the version, and start with nodemon instead.
 
 ```PowerShell
 npm install nodemon
