@@ -31,7 +31,7 @@ choco upgrade all -y
 
 ## OR Install Node.js the traditional way
 
-1. Install the lastest LTS version from the Node.js website
+1. Go to the Node.js website and follow the instructions to install.
 2. Verify installation. Open Powershell in your working folder and run:
 
 ```PowerShell
@@ -39,12 +39,17 @@ node -v
 npm -v
 ```
 
+## Windows
+
+In Windows, execute Node and npm commands in Powershell as Administrator,
+typically in the the root project folder.
+
 ## Start your Server
 
-Start your Server. See the package.json for configuring npm scripts.
+Start your server with the node command followed by the name of the JavaScript file.
 
 ```PowerShell
-node server.js
+node index.js
 ```
 
 ## Open a Browser Client
@@ -55,21 +60,12 @@ Open a web browser and go to the URL: <http://127.0.0.1:3000/> or <http://localh
 
 Make changes to the server logic. Use CTRL-C, CTRL-C to stop your server. Restart the server to see your changes.
 
-## Optional: Install Nodemon to enable live updates
-
-Install nodemon locally - this can be very helpful later. In the project folder, open PowerShell here as Administrator, install and check the version, and start with nodemon instead.
-
-```PowerShell
-npm install nodemon
-nodemon -v
-nodemon server.js
-```
-
-## Optional: Create a server from scratch
+## Recommended: Create a server from scratch
 
 1. Create a folder for server-side code.
-1. In the folder, create a file named server.js.
+1. Create a useful README.md.
 1. In the folder, open PowerShell and run npm init to generate a package.json with app information.
+1. Create a file named index.js and use Node.js to create a server and custom services.
 
 ## Demo site hosted with Heroku web hosting service (free tier)
 

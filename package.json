@@ -1,11 +1,11 @@
 {
   "name": "node-server",
   "version": "1.0.0",
-  "description": "Simple node server",
-  "main": "server.js",
+  "description": "Simple Node server",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
